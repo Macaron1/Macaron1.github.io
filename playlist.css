@@ -1,0 +1,105 @@
+body{
+    background-color:#000;
+    margin: 0;
+    padding: 0;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.panel_toggle {
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    color: #dfdbda;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    top: 120px;
+    z-index: 2;
+    transition: all .5s ease-in-out;
+}
+.panel_toggle.open {
+    right: 300px;
+}
+.panel_toggle.open, .panel_toggle:hover {
+    color: #fff;
+}
+.panel {
+    width: 280px;
+    height: auto;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.4);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: fixed;
+    right: -300px;
+    top: 130px;
+    bottom: 60px;
+    z-index: 2;
+    box-shadow: none;
+    transition: all .3s ease-in-out;
+    overflow: scroll;
+}
+.panel.open {
+    right: 0;
+}
+.episode {
+    padding: 5px;
+    margin-top: 5px;
+    color: #dfdbda;
+    cursor: pointer;
+}
+.episode.is-active, .episode:hover {
+    color: #fff;
+}
+.episode.is-active:before {
+    content: '\f3aa';
+    font-family: 'Material-Design-Iconic-Font';
+    margin-right: 5px;
+    color: #00d1b2;
+}
+.duration {
+    margin-left: 1em;
+    color: #00d1b2;
+}
+.fullscreen {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 45px;
+    width: 60px;
+    z-index: 9999999;
+}
+@media only screen and (max-width: 768px) {
+    .panel.open {
+        height: auto;
+        width: calc(100% - 49px);
+        top: 50px;
+        bottom: 50px;
+        left: 50px;
+    }
+    .panel_toggle.open {
+        right: calc(100% - 49px);
+        top: 40px;
+    }
+}
