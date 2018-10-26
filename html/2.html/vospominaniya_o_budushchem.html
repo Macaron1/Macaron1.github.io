@@ -14,8 +14,20 @@
 
  </video>
  
- <script type="text/javascript">
- fluidPlayer('my-video');
+<script type="text/javascript">
+    var myFP = fluidPlayer(
+        'my-video',
+        {
+            layoutControls: {
+        posterImage: 'https://i2.imageban.ru/out/2018/10/26/186061acdf77706f3f2b1c852dcfe75e.jpg',
+        controlBar: {
+			                   autoHide: true,
+			                   autoHideTimeout: 2,
+			                   animated: true
+		               },
+            },
+        }
+    );
  </script>
  </body>
 </html>
