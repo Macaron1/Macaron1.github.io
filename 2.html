@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Macaron</title>
+<link rel="stylesheet" href="/css/material-design-iconic-font.min.css">
+<link rel="stylesheet" href="/css/playlist.css">
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter51380725 = new Ya.Metrika2({
+                    id:51380725,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/51380725" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+<!-- 
+Привет♥
+Ты милый ^.^ 
+-->
+<body>
+<iframe id="player" src="/html/2.html/gachiGASM.html" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<span class="panel_toggle toggleable"><i class="zmdi zmdi-playlist-audio zmdi-hc-3x"></i></span>
+<div class="panel toggleable">
+        <span class="episode is-active" data-url="/html/2.html/gachiGASM.html">
+        GachiGASM
+    </span>
+        <span class="episode" data-url="/html/2.html/palochka.html">
+        Палочка
+    </span>
+        <span class="episode" data-url="/html/2.html/Stickers.html">
+        Наклейки
+    </span>
+        <span class="episode" data-url="/html/2.html/Desu.html">
+        Desu! Desu! Desu!
+    </span>
+        <span class="episode" data-url="/html/2.html/obychnye-japonskie-shkolniki.html">
+        Обычные японские школьники
+    </span>
+        <span class="episode" data-url="/html/2.html/Princesses.html">
+        Princesses
+    </span>
+        <span class="episode" data-url="/html/2.html/Yoda.html">
+        Yoda
+    </span>
+        <span class="episode" data-url="/html/2.html/Japanese_TV_show_in_Dark_Souls.html">
+        Japanese TV show in Dark Souls
+    </span>
+        <span class="episode" data-url="/html/2.html/Communism.html">
+        Communism
+    </span>
+        <span class="episode" data-url="/html/2.html/Superloli.html">
+        Супер лоли
+    </span>
+        <span class="episode" data-url="/html/2.html/Shazam.html">
+        Shazam!!!
+    </span>
+        <span class="episode" data-url="/html/2.html/HarryPotter.html">
+        Harry Potter
+    </span>
+        <span class="episode" data-url="/html/2.html/i_wanna_be_a_voice_actor.html">
+        I wanna be a voice actor
+    </span>
+        <span class="episode" data-url="/html/2.html/Saiki_Kusuo_no_Psi_Nan_ONA.html">
+        Saiki Kusuo no Psi Nan ONA 2013
+    </span>
+        <span class="episode" data-url="/html/2.html/vospominaniya_o_budushchem.html">
+        Воспоминания о будущем
+    </span>
+        <span class="episode" data-url="/html/2.html/Kobold-Blues.html">
+        Kobold Blues
+    </span>
+        <span class="episode" data-url="/html/2.html/Seduction.html">
+        Совращение
+    </span>
+        <span class="episode" data-url="/html/2.html/Mouse_Computer.html">
+        Mouse Computer
+    </span>
+        <span class="episode" data-url="/html/2.html/Toy_story">
+        Toy story
+    </span>
+        <span class="episode" data-url="/html/2.html/macaron-webm">
+        Macaron.webm
+    </span>
+        <span class="episode" data-url="/html/2.html/meido">
+        Meido
+    </span>
+        <span class="episode" data-url="/html/2.html/cooking">
+        Кулинария
+    </span>
+        <span class="episode" data-url="/html/2.html/stockings">
+        Чулочки
+    </span>
+        <span class="episode" data-url="/html/2.html/macaron-webm2">
+        Macaron.webm
+    </span>
+        <span class="episode" data-url="/html/2.html/McCrees-Bizarre-Adventure">
+        McCrees Bizarre Adventure
+    </span>
+        <span class="episode" data-url="/html/2.html/1-213-373-4253">
+        1-213-373-4253
+    </span>
+        <span class="episode" data-url="/html/2.html/Slam-of-the-Northstar.html">
+        Slam of the Northstar - Quad City DJs vs Crystal Kings
+    </span>
+        <span class="episode" data-url="/html/2.html/Nier-2B-cosplay.html">
+        NieR: Automata Cosplay
+    </span>
+        <span class="episode" data-url="/html/2.html/Dota2-Pokemon.html">
+        Dota 2 Pokemon
+    </span>
+    </div>
+<!-- Javascript -->
+<script src="/css/core.min0131.js"></script>
+<script>
+/* global $*/
+var player = {
+    pinged: false,
+	init: function() {
+		$('.episode').click(function() {
+			var $this = $(this);
+			$('.episode').removeClass('is-active');
+			$this.addClass('is-active');
+			player.play($this.attr('data-url'));
+		});
+		$('.panel_toggle').click(function() {
+			$('.toggleable').toggleClass('open');
+			if(!player.pinged) {
+			    $.post('./YouTube/');
+			    player.pinged = true;
+			}
+		});
+	},
+    play: function(url) {
+		$('#player').attr('src', url);
+	}
+};
+player.init();
+</script>
+</body>
+</html>
