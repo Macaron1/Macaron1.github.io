@@ -1,0 +1,32 @@
+<html>
+ <head>
+  <meta charset="UTF-8"/>
+  <title>Macaron</title>
+  <link rel="icon" type="image/ico" href="/favicon.ico" />
+  <link rel="stylesheet" href="/fluid-player-master/fluidplayer.min.css" type="text/css"/>
+  <link rel="stylesheet" href="/main.css" type="text/css"/>
+  <script src="/fluid-player-master/fluidplayer.min.js"></script>
+ </head>
+ <body bgcolor="#000000">
+ <video id='my-video' controls style="width: 100%; height: 100%;">
+ <source src='/v/Shaggys-Bizarre-Adventures.mp4' title='Shaggy's Bizarre Adventures' type='video/mp4' />
+
+ </video>
+ 
+<script type="text/javascript">
+    var myFP = fluidPlayer(
+        'my-video',
+        {
+            layoutControls: {
+        posterImage: 'https://i1.imageban.ru/out/2019/02/07/ddc95880fa7b692b253b8ed2a62df203.jpg',
+        controlBar: {
+			                   autoHide: true,
+			                   autoHideTimeout: 2,
+			                   animated: true
+		               },
+            },
+        }
+    );
+ </script>
+ </body>
+</html>
