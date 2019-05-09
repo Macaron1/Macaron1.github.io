@@ -2,6 +2,7 @@ body{
     background-color:#000;
     margin: 0;
     padding: 0;
+    cursor: url(/css/gam210.ani), default;
 }
 iframe {
     width: 100%;
