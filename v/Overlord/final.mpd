@@ -12,16 +12,9 @@
    </Representation>
   </AdaptationSet>
   <AdaptationSet segmentAlignment="true" lang="rus" startWithSAP="1">
-   <ContentComponent id="101" contentType="audio" />
-   <ContentComponent id="2" contentType="application" />
-   <ContentComponent id="1" contentType="application" />
-   <Representation id="2" mimeType="audio/mp4" codecs="mp4a.40.2,mp4s.01,mp4s.02" audioSamplingRate="48000" bandwidth="162792">
+   <Representation id="2" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" bandwidth="162792">
     <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-    <SegmentTemplate media="audio/segment_$Number$.m4s" initialization="audio/segment_init.mp4" timescale="1000" startNumber="1" duration="15000"/>
-   </Representation>
-   <Representation id="3" mimeType="audio/mp4" codecs="mp4a.40.2,mp4s.01,mp4s.02" audioSamplingRate="48000" bandwidth="161960">
-    <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-    <SegmentTemplate media="audio2/segment_$Number$.m4s" initialization="audio2/segment_init.mp4" timescale="1000" startNumber="1" duration="15000"/>
+    <SegmentTemplate media="audio/segment__track1_$Number$.m4s" initialization="audio/segment__track1_init.mp4" timescale="48000" startNumber="1" duration="720000"/>
    </Representation>
   </AdaptationSet>
  </Period>
