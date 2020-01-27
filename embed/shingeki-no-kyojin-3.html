@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shingeki no Kyojin OVA | embed</title>
+<link rel="stylesheet" href="/css/material-design-iconic-font.min.css">
+<link rel="stylesheet" href="/css/playlist.css">
+</head>
+ <body bgcolor="#000000">
+ <p style="z-index: 3;position: absolute;color: white;top: 30px;left: 120px;">↑ Выбрана 12 серия</p>
+<iframe id="player" src="//kodik.info/serial/11784/237e9abac78a0ac639e429afe00b6168/720p" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<span class="panel_toggle toggleable"><i class="zmdi zmdi-playlist-audio zmdi-hc-3x"></i></span>
+<div class="panel toggleable">
+	<span class="episode is-active" data-url="//kodik.info/serial/11784/237e9abac78a0ac639e429afe00b6168/720p">
+        Часть 1
+    </span>
+	<span class="episode" data-url="//kodik.info/serial/17777/f2138dff11bd171a22fa56d72ffcb78c/720p">
+        Часть 2
+    </span>
+    </div>
+<!-- Javascript -->
+<script src="/css/core.min0131.js"></script>
+<script>
+/* global $*/
+var player = {
+    pinged: false,
+	init: function() {
+		$('.episode').click(function() {
+			var $this = $(this);
+			$('.episode').removeClass('is-active');
+			$this.addClass('is-active');
+			player.play($this.attr('data-url'));
+		});
+		$('.panel_toggle').click(function() {
+			$('.toggleable').toggleClass('open');
+			if(!player.pinged) {
+			    $.post('./YouTube/');
+			    player.pinged = true;
+			}
+		});
+	},
+    play: function(url) {
+		$('#player').attr('src', url);
+	}
+};
+player.init();
+</script>
+ </body>
+</html>

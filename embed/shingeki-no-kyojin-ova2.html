@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shingeki no Kyojin OVA | embed</title>
+<link rel="stylesheet" href="/css/material-design-iconic-font.min.css">
+<link rel="stylesheet" href="/css/playlist.css">
+</head>
+ <body bgcolor="#000000">
+<iframe id="player" src="https://video.sibnet.ru/shell.php?videoid=1692089" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<span class="panel_toggle toggleable"><i class="zmdi zmdi-playlist-audio zmdi-hc-3x"></i></span>
+<div class="panel toggleable">
+	<span class="episode is-active" data-url="https://video.sibnet.ru/shell.php?videoid=1692089">
+        Эпизод 1
+    </span>
+	<span class="episode" data-url="https://video.sibnet.ru/shell.php?videoid=1777257">
+        Эпизод 2
+    </span>
+    </div>
+<!-- Javascript -->
+<script src="/css/core.min0131.js"></script>
+<script>
+/* global $*/
+var player = {
+    pinged: false,
+	init: function() {
+		$('.episode').click(function() {
+			var $this = $(this);
+			$('.episode').removeClass('is-active');
+			$this.addClass('is-active');
+			player.play($this.attr('data-url'));
+		});
+		$('.panel_toggle').click(function() {
+			$('.toggleable').toggleClass('open');
+			if(!player.pinged) {
+			    $.post('./YouTube/');
+			    player.pinged = true;
+			}
+		});
+	},
+    play: function(url) {
+		$('#player').attr('src', url);
+	}
+};
+player.init();
+</script>
+ </body>
+</html>
