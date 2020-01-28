@@ -141,9 +141,12 @@ h4 {
 .macaron-logo {
 	height: 85px
 }*/
-body {
-	zoom: 1.2
-}
+#mcrn-offcanvas {zoom: 1.2}
+#mcrn-header {zoom: 1.2}
+#themeBtn {zoom: 1.2}
+#mcrn-footer {zoom: 1.2}
+.row.mcrn-post-entry {zoom: 1.2;}
+.macaron-container {zoom: 1.2}
 }
 /*hmm...*/
 
