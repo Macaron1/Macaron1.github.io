@@ -130,6 +130,17 @@ h4 {
 .macaron-logo {
 	height: 70px
 }
+.player-load {
+	width: 100%;
+    position: absolute;
+    z-index: 1;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px)
+}
+iframe {
+	border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px)
+}
 @media (width: 1366px) {
 	body {zoom: 0.817;}
 }
