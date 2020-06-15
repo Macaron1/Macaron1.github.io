@@ -141,6 +141,13 @@ iframe {
 	border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px)
 }
+.row.mcrn-post-entry {
+	width: 90%;
+    margin: 0 auto;
+    max-width: 1700px;
+	/*display: flex;
+    flex-wrap: wrap;*/
+}
 @media (width: 1366px) {
 	body {zoom: 0.817;}
 }
