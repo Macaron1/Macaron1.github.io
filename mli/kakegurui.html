@@ -40,11 +40,28 @@
 	
 	<!-- jQuery -->
 	<script src="/js/jquery.min.js"></script>
+	
+	<style>
+		body {
+			background:#282B2F !important;
+			color:#E0E0E0 !important;
+			background-image: url(/img/dot.gif), url(/img/bg_square.jpg) !important;
+			background-position: center center, top !important;
+			background-repeat: repeat, no-repeat !important;
+			background-size: auto, cover !important;
+			}
+		a{color:#fff !important;}
+		*::selection{background:#9ECDFF !important;}
+		#mcrn-offcanvas{background-color:#282B2F;}
+		#mcrn-offcanvas .mcrn-menu,#mcrn-offcanvas .mcrn-bio{background-color: #282B2Fa8;}
+		#mcrn-offcanvas .mcrn-menu ul li a {color: #fff !important;}
+		.mcrn-social li a {color: #fff !important;}
+		#mcrn-offcanvas .mcrn-close-offcanvas{color: #fff !important;}
+		.mcrn-post-entry article h2 a {color: #fff !important;}
+	</style>
 
 	</head>
 	<body>
-	<button id="themeBtn"><i class="icon-moon"></i></button>
-	<script src="/js/dark.js"></script>
 	<div id="mcrn-offcanvas">
 		<script>
 			$( "#mcrn-offcanvas" ).load( "/menu.html" );
