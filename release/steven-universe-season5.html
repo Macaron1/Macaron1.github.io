@@ -45,11 +45,26 @@
 	
 	<!-- jQuery -->
 	<script src="/js/jquery.min.js"></script>
+	<style>
+	#pumpkin {
+		background-image: url(/img/pumpkin.png);
+		background-size: contain;
+		width: 92px;
+		height: 60px;
+		position: absolute;
+		right: 80px;
+		top: 45px;
+	}
+	@media screen and (max-width: 480px) {
+			#pumpkin {right: 15px;}
+		}
+	</style>
 
 	</head>
 	<body>
 	<button id="themeBtn"><i class="icon-moon"></i></button>
 	<script src="/js/dark.js"></script>
+	<div id="pumpkin"></div>
 	<div id="mcrn-offcanvas">
 		<script>
 			$( "#mcrn-offcanvas" ).load( "/menu.html" );

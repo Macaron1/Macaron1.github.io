@@ -44,11 +44,26 @@
 	
 	<!-- jQuery -->
 	<script src="/js/jquery.min.js"></script>
+	<style>
+		#cookie-cat {
+			width: 91px;
+			height: 93px;
+			background-image: url(/img/cookie-cat-small.png);
+			background-size: contain;
+			position: absolute;
+			right: 105px;
+			top: 29px;
+		}
+		@media screen and (max-width: 480px) {
+			#cookie-cat {right: 80px;}
+		}
+	</style>
 
 	</head>
 	<body>
 	<button id="themeBtn"><i class="icon-moon"></i></button>
 	<script src="/js/dark.js"></script>
+	<div id="cookie-cat"></div>
 	<div id="mcrn-offcanvas">
 		<script>
 			$( "#mcrn-offcanvas" ).load( "/menu.html" );

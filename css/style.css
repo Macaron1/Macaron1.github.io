@@ -142,16 +142,16 @@ iframe {
     border-top-right-radius: calc(.25rem - 1px)
 }
 .row.mcrn-post-entry {
-	width: 90%;
+	width: 80%; /*было 90%*/
     margin: 0 auto;
     max-width: 1700px;
 	display: flex;
     flex-wrap: wrap;
 }
-@media (width: 1366px) {
+@media screen and (width: 1366px) {
 	body {zoom: 0.831;}
 }
-@media (min-width: 1900px) {
+@media screen and (width: 1920px) {
 /*.macaron-container{
 	max-width: 1402px;
 	width: 94%;
@@ -162,11 +162,14 @@ iframe {
 .macaron-logo {
 	height: 85px
 }*/
-/*#mcrn-offcanvas {zoom: 1.2}*/
+/*#mcrn-offcanvas {zoom: 1.2}
 #mcrn-header {zoom: 1.2}
 #themeBtn {zoom: 1.2}
 #mcrn-footer {zoom: 1.2}
-.macaron-container {zoom: 1.2}
+.macaron-container {zoom: 1.2}*/
+h2.mcrn-article-title {
+    zoom: 0.8;
+}
 }
 @media screen and (max-width: 480px) {
 	.row.mcrn-post-entry {
