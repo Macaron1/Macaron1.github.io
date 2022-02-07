@@ -1,4 +1,7 @@
 User-agent: *
 Disallow: /embed/
+Disallow: /embed/img/
+Disallow: /img/
+Disallow: /img/poster/
 Disallow: /html/2.html/
 Disallow: /scripts.html
