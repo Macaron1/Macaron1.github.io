@@ -1,0 +1,14 @@
+[
+	  {"title":"Эпизод 01","file":"[720p]https://vk.com/doc-169679247_659118058","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren.txt&plstart=01","id":"01"},
+	  {"title":"Эпизод 02","file":"[720p]https://vk.com/doc-169679247_659118094","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren.txt&plstart=02","id":"02"},
+	  {"title":"Эпизод 03","file":"[720p]https://vk.com/doc-169679247_659118290","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren.txt&plstart=03","id":"03"},
+	  {"title":"Эпизод 04","file":"[720p]https://vk.com/doc-169679247_659118295","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren.txt&plstart=04","id":"04"},
+	  {"title":"Эпизод 05","file":"[720p]https://vk.com/doc-169679247_659118301","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren.txt&plstart=05","id":"05"},
+	  {"title":"Эпизод 05.5","file":"[720p]https://vk.com/doc-169679247_659120029","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren.txt&plstart=05.5","id":"05.5"},
+	  {"title":"Эпизод 06","file":"[720p]https://vk.com/doc-169679247_659120034","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren.txt&plstart=06","id":"06"},
+	  {"title":"Эпизод 07","file":"[720p]https://vk.com/doc-169679247_659120039","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren.txt&plstart=07","id":"07"},
+	  {"title":"Эпизод 08","file":"[720p]https://vk.com/doc-169679247_659121096","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren.txt&plstart=08","id":"08"},
+	  {"title":"Эпизод 09","file":"[720p]https://vk.com/doc-169679247_659121102","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren.txt&plstart=09","id":"09"},
+	  {"title":"Эпизод 10","file":"[720p]https://vk.com/doc-169679247_659121112","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren.txt&plstart=10","id":"10"},
+	  {"title":"Эпизод 11","file":"[720p]https://vk.com/doc-169679247_659121824","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren.txt&plstart=11","id":"11"}
+	  ]
