@@ -4,21 +4,7 @@
   <title>Shiguang Dailiren | embed</title>
   <link rel="icon" type="image/ico" href="/favicon.ico" />
   <script src="/embed/playerjs.js" type="text/javascript"></script>
-  <div id="counters">
-	<script>
-		function load(url, selector) {
-		  const xhr = new XMLHttpRequest();
-		  xhr.onreadystatechange = function () {
-			if (xhr.readyState === 4 && xhr.status === 200) {
-			  document.querySelector(selector).innerHTML = xhr.responseText;
-			}
-		  };
-		  xhr.open("GET", url, true);
-		  xhr.send();
-		}
-		load("/scripts.html", "#counters");
-	</script>
-  </div>
+  <script src="/js/jquery.min.js"></script><div id="counters"><script>$( "#counters" ).load( "/scripts.html" )</script></div>
   <style type="text/css">
 	body {
 		padding: 0;

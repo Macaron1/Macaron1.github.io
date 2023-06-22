@@ -5,3 +5,4 @@ Disallow: /img/
 Disallow: /img/poster/
 Disallow: /html/2.html/
 Disallow: /scripts.html
+Disallow: /comparison
