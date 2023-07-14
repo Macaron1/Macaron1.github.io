@@ -39,31 +39,27 @@ const light = '\
 	:root {--scrollbarBgColor: rgba(0, 0, 0, .05);}\
 	*::-webkit-scrollbar-thumb {background-image: linear-gradient(180deg,var(--scrollbarThumbColor) 0%,var(--scrollbarThumbColorSecond) 90%);--scrollbarThumbColor: rgba(0, 0, 0, .15);}'
 
-if (localStorage.getItem('theme') == null) {
-    localStorage.setItem('theme', 'dark');
-}
-
 if (localStorage.getItem('theme') == 'dark') {
-    addGlobalStyle(dark);
+	addGlobalStyle(dark);
 }
 
 document.getElementById('themeBtn').addEventListener( "click" , function() {
-    if (localStorage.getItem('theme') == 'dark') {
-        addGlobalStyle(light);
-        localStorage.setItem('theme', 'light')
-    }
-    else {
-        addGlobalStyle(dark);
-        localStorage.setItem('theme', 'dark')
-    }
+	if (localStorage.getItem('theme') == 'dark') {
+		addGlobalStyle(light);
+		localStorage.setItem('theme', 'light')
+	}
+	else {
+		addGlobalStyle(dark);
+		localStorage.setItem('theme', 'dark')
+	}
 });
   
 function addGlobalStyle(css) {
-    var head, style;
-    head = document.getElementsByTagName('head')[0];
-    if (!head) { return; }
-    style = document.createElement('style');
-    style.type = 'text/css';
-    style.innerHTML = css;
-    head.appendChild(style);
+	var head, style;
+	head = document.getElementsByTagName('head')[0];
+	if (!head) { return; }
+	style = document.createElement('style');
+	style.type = 'text/css';
+	style.innerHTML = css;
+	head.appendChild(style);
 }
