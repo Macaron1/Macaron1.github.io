@@ -1,4 +1,5 @@
 [
 	  {"title":"Эпизод 00","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=661278231,[1080p]https://mcrnfs001.000webhostapp.com/?v=661292647","embed":"https://macaron.fun/embed/player.html?file=ep/mushoku-tensei-ii-isekai-ittara-honki-dasu.txt&plstart=01","id":"01"},
-	  {"title":"Эпизод 01","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=661278236,[1080p]https://mcrnfs001.000webhostapp.com/?v=661278893","embed":"https://macaron.fun/embed/player.html?file=ep/mushoku-tensei-ii-isekai-ittara-honki-dasu.txt&plstart=02","id":"02"}
+	  {"title":"Эпизод 01","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=661278236,[1080p]https://mcrnfs001.000webhostapp.com/?v=661278893","embed":"https://macaron.fun/embed/player.html?file=ep/mushoku-tensei-ii-isekai-ittara-honki-dasu.txt&plstart=02","id":"02"},
+	  {"title":"Эпизод 02","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=661486162,[1080p]https://mcrnfs001.000webhostapp.com/?v=661504869","embed":"https://macaron.fun/embed/player.html?file=ep/mushoku-tensei-ii-isekai-ittara-honki-dasu.txt&plstart=03","id":"03"}
 	  ]
