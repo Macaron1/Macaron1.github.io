@@ -34,11 +34,26 @@
 	
 	<!-- jQuery -->
 	<script src="/js/jquery.min.js"></script><div id="counters"><script>$( "#counters" ).load( "/scripts.html" )</script></div>
+	<style>
+		#eris-ruijerd-rudeus{
+			width: 170px;
+			height: 103px;
+			position: absolute;
+			right: 102px;
+			top: 28px;
+			background-image: url(/img/eris-ruijerd-rudeus.png);
+			background-size: contain;
+		}
+		@media screen and (max-width: 480px) {
+			#eris-ruijerd-rudeus {right: 9px; top: 52px;}
+		}
+	</style>
 
 	</head>
 	<body>
 	<button id="themeBtn"><i class="icon-moon"></i></button>
 	<script src="/js/dark.js"></script>
+	<div id="eris-ruijerd-rudeus"></div>
 	<div id="mcrn-offcanvas">
 		<script>
 			$( "#mcrn-offcanvas" ).load( "/menu.html" );
