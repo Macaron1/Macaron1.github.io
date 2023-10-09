@@ -1,4 +1,4 @@
 [
-	  {"title":"Эпизод 01","file":"[720p]https://fs47.myvi.tv:8092/0F/Vn/GB/M9/sE/iz/Qc/mo/bE/9B/-w/2/2.mp4?&s=doiKzMtfYI5iJFOdz7B3nTy3ZjaMlQRck79yjFwJ4qFdSBSo1o8hNsnltxqqz-BUFdVEBp6dEcijthQSAe5K5Q2&r=UW0f9gziWZ8vUt2sGn9gjogttinky3WyH12XKkgQX-Q1&do=1443&d=1299&ri=Wpf42W3Sgn1oTCorAAAAAA2","embed":"https://macaron.fun/embed/player.html?file=ep/shingeki-no-kyojin-ova2.txt&plstart=01","id":"01"},
-	  {"title":"Эпизод 02","file":"[720p]https://fs75.myvi.tv:8092/K2/1_/H4/fH/eU/yN/Wa/V5/z3/Wi/2w/2/2.mp4?&s=Nwi9yMAeg_2O2lEW9NHlkn_F5WxzZF7SOQayNgcMohBdSBSo1o8hNsnltxqqz-BUFdVEBp6dEcijthQSAe5K5Q2&r=K91Z8YfZD8KASeGGg5BZsChtHK25V62DWxv662Lh8mU1&do=1799&d=1620&ri=Wpf42W3Sgn1oTCorAAAAAA2","embed":"https://macaron.fun/embed/player.html?file=ep/shingeki-no-kyojin-ova2.txt&plstart=02","id":"02"}
+	  {"title":"Эпизод 01","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=664984914","embed":"https://macaron.fun/embed/player.html?file=ep/shingeki-no-kyojin-ova2.txt&plstart=01","id":"01"},
+	  {"title":"Эпизод 02","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=664984916","embed":"https://macaron.fun/embed/player.html?file=ep/shingeki-no-kyojin-ova2.txt&plstart=02","id":"02"}
 	  ]
