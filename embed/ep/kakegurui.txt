@@ -1,14 +1,14 @@
 [
-	  {"title":"Эпизод 01","file":"[1080p]https://mcrnfs001.000webhostapp.com/?v=665122374","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=01","id":"01"},
-	  {"title":"Эпизод 02","file":"[1080p]https://mcrnfs001.000webhostapp.com/?v=665122378","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=02","id":"02"},
-	  {"title":"Эпизод 03","file":"[1080p]https://mcrnfs001.000webhostapp.com/?v=665122382","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=03","id":"03"},
-	  {"title":"Эпизод 04","file":"[1080p]https://mcrnfs001.000webhostapp.com/?v=665122391","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=04","id":"04"},
-	  {"title":"Эпизод 05","file":"[1080p]https://mcrnfs001.000webhostapp.com/?v=665122395","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=05","id":"05"},
-	  {"title":"Эпизод 06","file":"[1080p]https://mcrnfs001.000webhostapp.com/?v=665122399","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=06","id":"06"},
-	  {"title":"Эпизод 07","file":"[1080p]https://mcrnfs001.000webhostapp.com/?v=665123334","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=07","id":"07"},
-	  {"title":"Эпизод 08","file":"[1080p]https://mcrnfs001.000webhostapp.com/?v=665123336","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=08","id":"08"},
-	  {"title":"Эпизод 09","file":"[1080p]https://mcrnfs001.000webhostapp.com/?v=665123339","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=09","id":"09"},
-	  {"title":"Эпизод 10","file":"[1080p]https://mcrnfs001.000webhostapp.com/?v=665123347","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=10","id":"10"},
-	  {"title":"Эпизод 11","file":"[1080p]https://mcrnfs001.000webhostapp.com/?v=665123354","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=11","id":"11"},
-	  {"title":"Эпизод 12","file":"[1080p]https://mcrnfs001.000webhostapp.com/?v=665123360","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=12","id":"12"}
+	  {"title":"Эпизод 01","file":"[1080p]https://fs01.macaron.fun/?v=665122374","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=01","id":"01"},
+	  {"title":"Эпизод 02","file":"[1080p]https://fs01.macaron.fun/?v=665122378","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=02","id":"02"},
+	  {"title":"Эпизод 03","file":"[1080p]https://fs01.macaron.fun/?v=665122382","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=03","id":"03"},
+	  {"title":"Эпизод 04","file":"[1080p]https://fs01.macaron.fun/?v=665122391","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=04","id":"04"},
+	  {"title":"Эпизод 05","file":"[1080p]https://fs01.macaron.fun/?v=665122395","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=05","id":"05"},
+	  {"title":"Эпизод 06","file":"[1080p]https://fs01.macaron.fun/?v=665122399","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=06","id":"06"},
+	  {"title":"Эпизод 07","file":"[1080p]https://fs01.macaron.fun/?v=665123334","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=07","id":"07"},
+	  {"title":"Эпизод 08","file":"[1080p]https://fs01.macaron.fun/?v=665123336","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=08","id":"08"},
+	  {"title":"Эпизод 09","file":"[1080p]https://fs01.macaron.fun/?v=665123339","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=09","id":"09"},
+	  {"title":"Эпизод 10","file":"[1080p]https://fs01.macaron.fun/?v=665123347","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=10","id":"10"},
+	  {"title":"Эпизод 11","file":"[1080p]https://fs01.macaron.fun/?v=665123354","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=11","id":"11"},
+	  {"title":"Эпизод 12","file":"[1080p]https://fs01.macaron.fun/?v=665123360","embed":"https://macaron.fun/embed/player.html?file=ep/kakegurui.txt&plstart=12","id":"12"}
 	  ]

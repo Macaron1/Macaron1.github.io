@@ -1,8 +1,8 @@
 [
-	  {"title":"Эпизод 01","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=664986570","embed":"https://macaron.fun/embed/player.html?file=ep/golden-boy.txt&plstart=01","id":"01"},
-	  {"title":"Эпизод 02","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=664986575","embed":"https://macaron.fun/embed/player.html?file=ep/golden-boy.txt&plstart=02","id":"02"},
-	  {"title":"Эпизод 03","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=664986577","embed":"https://macaron.fun/embed/player.html?file=ep/golden-boy.txt&plstart=03","id":"03"},
-	  {"title":"Эпизод 04","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=664986580","embed":"https://macaron.fun/embed/player.html?file=ep/golden-boy.txt&plstart=04","id":"04"},
-	  {"title":"Эпизод 05","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=664986584","embed":"https://macaron.fun/embed/player.html?file=ep/golden-boy.txt&plstart=05","id":"05"},
-	  {"title":"Эпизод 06","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=664986587","embed":"https://macaron.fun/embed/player.html?file=ep/golden-boy.txt&plstart=06","id":"06"}
+	  {"title":"Эпизод 01","file":"[720p]https://fs01.macaron.fun/?v=664986570","embed":"https://macaron.fun/embed/player.html?file=ep/golden-boy.txt&plstart=01","id":"01"},
+	  {"title":"Эпизод 02","file":"[720p]https://fs01.macaron.fun/?v=664986575","embed":"https://macaron.fun/embed/player.html?file=ep/golden-boy.txt&plstart=02","id":"02"},
+	  {"title":"Эпизод 03","file":"[720p]https://fs01.macaron.fun/?v=664986577","embed":"https://macaron.fun/embed/player.html?file=ep/golden-boy.txt&plstart=03","id":"03"},
+	  {"title":"Эпизод 04","file":"[720p]https://fs01.macaron.fun/?v=664986580","embed":"https://macaron.fun/embed/player.html?file=ep/golden-boy.txt&plstart=04","id":"04"},
+	  {"title":"Эпизод 05","file":"[720p]https://fs01.macaron.fun/?v=664986584","embed":"https://macaron.fun/embed/player.html?file=ep/golden-boy.txt&plstart=05","id":"05"},
+	  {"title":"Эпизод 06","file":"[720p]https://fs01.macaron.fun/?v=664986587","embed":"https://macaron.fun/embed/player.html?file=ep/golden-boy.txt&plstart=06","id":"06"}
 	  ]

@@ -1,15 +1,15 @@
 [
-	  {"title":"Эпизод 01","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=665017650","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=01","id":"01"},
-	  {"title":"Эпизод 02","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=665017653","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=02","id":"02"},
-	  {"title":"Эпизод 03","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=665017654","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=03","id":"03"},
-	  {"title":"Эпизод 04","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=665017655","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=04","id":"04"},
-	  {"title":"Эпизод 05","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=665017656","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=05","id":"05"},
-	  {"title":"Эпизод 06","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=665017657","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=06","id":"06"},
-	  {"title":"Эпизод 07","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=665017658","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=07","id":"07"},
-	  {"title":"Эпизод 08","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=665017661","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=08","id":"08"},
-	  {"title":"Эпизод 09","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=665017696","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=09","id":"09"},
-	  {"title":"Эпизод 10","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=665017697","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=10","id":"10"},
-	  {"title":"Эпизод 11","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=665017700","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=11","id":"11"},
-	  {"title":"Эпизод 12","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=665017701","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=12","id":"12"},
-	  {"title":"Эпизод 13","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=665017704","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=13","id":"13"}
+	  {"title":"Эпизод 01","file":"[720p]https://fs01.macaron.fun/?v=665017650","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=01","id":"01"},
+	  {"title":"Эпизод 02","file":"[720p]https://fs01.macaron.fun/?v=665017653","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=02","id":"02"},
+	  {"title":"Эпизод 03","file":"[720p]https://fs01.macaron.fun/?v=665017654","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=03","id":"03"},
+	  {"title":"Эпизод 04","file":"[720p]https://fs01.macaron.fun/?v=665017655","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=04","id":"04"},
+	  {"title":"Эпизод 05","file":"[720p]https://fs01.macaron.fun/?v=665017656","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=05","id":"05"},
+	  {"title":"Эпизод 06","file":"[720p]https://fs01.macaron.fun/?v=665017657","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=06","id":"06"},
+	  {"title":"Эпизод 07","file":"[720p]https://fs01.macaron.fun/?v=665017658","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=07","id":"07"},
+	  {"title":"Эпизод 08","file":"[720p]https://fs01.macaron.fun/?v=665017661","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=08","id":"08"},
+	  {"title":"Эпизод 09","file":"[720p]https://fs01.macaron.fun/?v=665017696","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=09","id":"09"},
+	  {"title":"Эпизод 10","file":"[720p]https://fs01.macaron.fun/?v=665017697","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=10","id":"10"},
+	  {"title":"Эпизод 11","file":"[720p]https://fs01.macaron.fun/?v=665017700","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=11","id":"11"},
+	  {"title":"Эпизод 12","file":"[720p]https://fs01.macaron.fun/?v=665017701","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=12","id":"12"},
+	  {"title":"Эпизод 13","file":"[720p]https://fs01.macaron.fun/?v=665017704","embed":"https://macaron.fun/embed/player.html?file=ep/kami-no-tou.txt&plstart=13","id":"13"}
 	  ]

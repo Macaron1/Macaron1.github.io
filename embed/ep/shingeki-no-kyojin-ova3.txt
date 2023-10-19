@@ -1,5 +1,5 @@
 [
-	  {"title":"Эпизод 01","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=664984918","embed":"https://macaron.fun/embed/player.html?file=ep/shingeki-no-kyojin-ova3.txt&plstart=01","id":"01"},
-	  {"title":"Эпизод 02","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=664984919","embed":"https://macaron.fun/embed/player.html?file=ep/shingeki-no-kyojin-ova3.txt&plstart=02","id":"02"},
-	  {"title":"Эпизод 03","file":"[720p]https://mcrnfs001.000webhostapp.com/?v=664984920","embed":"https://macaron.fun/embed/player.html?file=ep/shingeki-no-kyojin-ova3.txt&plstart=03","id":"03"}
+	  {"title":"Эпизод 01","file":"[720p]https://fs01.macaron.fun/?v=664984918","embed":"https://macaron.fun/embed/player.html?file=ep/shingeki-no-kyojin-ova3.txt&plstart=01","id":"01"},
+	  {"title":"Эпизод 02","file":"[720p]https://fs01.macaron.fun/?v=664984919","embed":"https://macaron.fun/embed/player.html?file=ep/shingeki-no-kyojin-ova3.txt&plstart=02","id":"02"},
+	  {"title":"Эпизод 03","file":"[720p]https://fs01.macaron.fun/?v=664984920","embed":"https://macaron.fun/embed/player.html?file=ep/shingeki-no-kyojin-ova3.txt&plstart=03","id":"03"}
 	  ]
