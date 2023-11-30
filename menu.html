@@ -30,92 +30,82 @@
 				</ul>
 			</div>
 			<div class="mcrn-box">
-				<h3 class="heading">Search</h3>
-				<form action="#">
-					<div class="form-group">
-						<input type="text" class="form-control" id="search" placeholder="Type a keyword">
-						<div id="results"></div>
-					</div>
-				</form>
+			  <h3 class="heading">Search</h3>
+			  <form action="#">
+				<div class="form-group">
+				  <input type="text" class="form-control" id="search" placeholder="Type a keyword">
+				  <div id="results"></div>
+				</div>
+			  </form>
 			</div>
-		</div>
-		<style>
-			#results {
+
+			<style>
+			  #results {
 				position: absolute;
-				<!--background-color: white;-->
-				<!--border: 1px solid black;-->
 				display: none;
 				background-color: #ffffffa8;
-			}
-			#results a {
+			  }
+
+			  #results a {
 				display: block;
 				padding: 5px;
-				<!--text-decoration: none;-->
-				<!--color: black;-->
-			}
-			#results a:hover {
+			  }
+
+			  #results a:hover {
 				background-color: #d3d3d3a8;
-			}
-		</style>
-		<script>
-			// Получение элементов на странице
-			const searchBox = document.getElementById("search");
-			const resultsContainer = document.getElementById("results");
+			  }
+			</style>
 
-			// Функция для получения элементов h2 с тегом article и ссылками
-			async function getHeadings() {
-				const pagePromises = ['/','/mli'].map(async (url) => {
-					const response = await fetch(url);
-					const parser = new DOMParser();
-					const html = await response.text();
-					const doc = parser.parseFromString(html, 'text/html');
-					const articles = doc.querySelectorAll("article > h2");
+			<script>
+			  // Получение элементов на странице
+			  const searchBox = document.getElementById("search");
+			  const resultsContainer = document.getElementById("results");
 
-					return Array.from(articles);
-				});
+			  // Функция для загрузки данных из JSON файла
+			  async function getData() {
+				const response = await fetch('/js/search_titles.json');
+				const data = await response.json();
+				return data;
+			  }
 
-				const pages = await Promise.all(pagePromises);
-				return pages.flat();
-			}
-
-			// Функция для поиска по h2 внутри тега article
-			async function searchFunction() {
+			  // Функция для поиска по данным из JSON
+			  async function searchFunction() {
 				const searchText = searchBox.value.toLowerCase();
-				const headings = await getHeadings();
+				const data = await getData();
 
 				resultsContainer.innerHTML = '';
 				resultsContainer.style.display = 'none';
 
 				if (searchText.length === 0) {
-					return;
+				  return;
 				}
-				
+
 				let matchedArticles = [];
 
-				headings.forEach(heading => {
-					const link = heading.querySelector('a');
-					const title = link.textContent;
+				data.forEach(item => {
+				  const title_ru = item.title_ru.toLowerCase();
+				  const title_en = item.title_en.toLowerCase();
 
-					// Проверка наличия текста поиска в заголовках
-					if (title.toLowerCase().includes(searchText)) {
-						// Создание ссылки и добавление ее в контейнер результатов поиска
-						const resultLink = link.cloneNode(true);
-						resultLink.href = link.href;
-						resultLink.innerHTML = title;
-						const resultDiv = document.createElement('div');
-						resultDiv.appendChild(resultLink);
-						matchedArticles.push(resultDiv);
-					}
+				  // Проверка наличия текста поиска в заголовках
+				  if (title_ru.includes(searchText) || title_en.includes(searchText)) {
+					// Создание ссылки и добавление ее в контейнер результатов поиска
+					const resultLink = document.createElement('a');
+					resultLink.href = item.link;
+					resultLink.innerHTML = title_ru;
+					const resultDiv = document.createElement('div');
+					resultDiv.appendChild(resultLink);
+					matchedArticles.push(resultDiv);
+				  }
 				});
 
 				if (matchedArticles.length > 0) {
-					resultsContainer.style.display = 'block';
-					matchedArticles.forEach(function (result) {
-						resultsContainer.appendChild(result);
-					});
+				  resultsContainer.style.display = 'block';
+				  matchedArticles.forEach(function (result) {
+					resultsContainer.appendChild(result);
+				  });
 				}
-			}
+			  }
 
-			// Добавление обработчика событий
-			searchBox.addEventListener('input', searchFunction);
-		</script>
+			  // Добавление обработчика событий
+			  searchBox.addEventListener('input', searchFunction);
+			</script>

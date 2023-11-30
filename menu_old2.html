@@ -1,0 +1,121 @@
+		<a href="#" class="mcrn-close-offcanvas js-mcrn-close-offcanvas"><span><i class="icon-cross3"></i> <span>Close</span></span></a>
+		<div class="mcrn-bio">
+			<figure>
+				<img src="/img/2081512.jpg" alt="Lum" class="img-responsive">
+			</figure>
+			<h3 class="heading">About Me</h3>
+			<h2>Миндальное печенье</h2>
+			<p>Учусь озвучивать мультики. Также выкладываю на сайт мультсериалы, озвученные не мной, с по-моему лучшей озвучкой из имеющихся.</p>
+			<ul class="mcrn-social">
+				<li><a href="/vk" target="_blank"><i class="icon-vk"></i></a></li>
+				<li><a href="#"><i class="icon-skype"></i></a></li>
+			</ul>
+				
+		</div>
+
+		<div class="mcrn-menu">
+			<div class="mcrn-box">
+				<h3 class="heading">Categories</h3>
+				<ul>
+					<li><a href="/">Macaron</a></li>
+					<li><a href="/mli">Macaron likes it</a></li>
+				</ul>
+				<br>
+				<h3 class="heading">Links</h3>
+				<ul>
+					<li><a href="https://beatrice-raws.org" target="_blank">Beatrice-raws</a></li>
+					<li><a href="http://www.madvr.com" target="_blank">madVR</a></li>
+					<li><a href="https://loki-hdrezka.net/586-dublyazh-hdrezka-studio/2-season" target="_blank">Loki</a></li>
+					<li><a href="/2">「       」</a></li>
+				</ul>
+			</div>
+			<div class="mcrn-box">
+				<h3 class="heading">Search</h3>
+				<form action="#">
+					<div class="form-group">
+						<input type="text" class="form-control" id="search" placeholder="Type a keyword">
+						<div id="results"></div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<style>
+			#results {
+				position: absolute;
+				<!--background-color: white;-->
+				<!--border: 1px solid black;-->
+				display: none;
+				background-color: #ffffffa8;
+			}
+			#results a {
+				display: block;
+				padding: 5px;
+				<!--text-decoration: none;-->
+				<!--color: black;-->
+			}
+			#results a:hover {
+				background-color: #d3d3d3a8;
+			}
+		</style>
+		<script>
+			// Получение элементов на странице
+			const searchBox = document.getElementById("search");
+			const resultsContainer = document.getElementById("results");
+
+			// Функция для получения элементов h2 с тегом article и ссылками
+			async function getHeadings() {
+				const pagePromises = ['/','/mli'].map(async (url) => {
+					const response = await fetch(url);
+					const parser = new DOMParser();
+					const html = await response.text();
+					const doc = parser.parseFromString(html, 'text/html');
+					const articles = doc.querySelectorAll("article > h2");
+
+					return Array.from(articles);
+				});
+
+				const pages = await Promise.all(pagePromises);
+				return pages.flat();
+			}
+
+			// Функция для поиска по h2 внутри тега article
+			async function searchFunction() {
+				const searchText = searchBox.value.toLowerCase();
+				const headings = await getHeadings();
+
+				resultsContainer.innerHTML = '';
+				resultsContainer.style.display = 'none';
+
+				if (searchText.length === 0) {
+					return;
+				}
+				
+				let matchedArticles = [];
+
+				headings.forEach(heading => {
+					const link = heading.querySelector('a');
+					const title = link.textContent;
+
+					// Проверка наличия текста поиска в заголовках
+					if (title.toLowerCase().includes(searchText)) {
+						// Создание ссылки и добавление ее в контейнер результатов поиска
+						const resultLink = link.cloneNode(true);
+						resultLink.href = link.href;
+						resultLink.innerHTML = title;
+						const resultDiv = document.createElement('div');
+						resultDiv.appendChild(resultLink);
+						matchedArticles.push(resultDiv);
+					}
+				});
+
+				if (matchedArticles.length > 0) {
+					resultsContainer.style.display = 'block';
+					matchedArticles.forEach(function (result) {
+						resultsContainer.appendChild(result);
+					});
+				}
+			}
+
+			// Добавление обработчика событий
+			searchBox.addEventListener('input', searchFunction);
+		</script>
