@@ -46,32 +46,35 @@
 	<script src="/js/jquery.min.js"></script><div id="counters"><script>$( "#counters" ).load( "/scripts.html" )</script></div>
 	
 	<style>
-	body {
-		background-image: url(/img/bg-shimoseka.png);
-		background-position: center +166px;
-		background-repeat: repeat;
-		background-size: auto;
-	}
-	#mcrn-header {
-		background-color: #fff;
-	}
-	#anagoImg {
-		background-image: url(/img/img_anago.png);
-		width: 28%;
-		max-width: 514px;
-		height: 38px;
-		position: absolute;
-		right: 0px;
-	}
-	.macaron-container{
-		max-width: 980px;
-	}
-	@media screen and (max-width: 980px) {
 		body {
-			background-image: url();
+			background-image: url(/img/bg-shimoseka.png);
+			background-position: center +166px;
+			background-repeat: repeat;
+			background-size: auto;
 		}
-	}
-	}
+		#mcrn-header {
+			background-color: #fff;
+		}
+		#anagoImg {
+			background-image: url(/img/img_anago.png);
+			width: 28%;
+			max-width: 514px;
+			height: 38px;
+			position: absolute;
+			right: 0px;
+		}
+		.macaron-container{
+			max-width: 980px;
+		}
+		@media screen and (max-width: 980px) {
+			body {
+				background-image: url();
+			}
+		}
+		@media screen and (max-width: 480px) {
+			#anagoImg {top: 70px;}
+		}
+		}
 	</style>
 
 	</head>
