@@ -1,0 +1,6 @@
+[
+	  {"title":"Эпизод 01","file":"[1080p]https://fs01.macaron.fun/?v=669067788","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=01","id":"01"},
+	  {"title":"Эпизод 02","file":"[1080p]https://fs01.macaron.fun/?v=669067792","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=02","id":"02"},
+	  {"title":"Эпизод 03","file":"[1080p]https://fs01.macaron.fun/?v=669664002","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=03","id":"03"},
+	  {"title":"Эпизод 04","file":"[1080p]https://fs01.macaron.fun/?v=669664012","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=04","id":"04"}
+	  ]
