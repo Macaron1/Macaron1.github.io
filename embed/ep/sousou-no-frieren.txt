@@ -26,5 +26,5 @@
 	  {"title":"Эпизод 25","file":"[720p]https://fs01.macaron.fun/?v=671605222","embed":"https://macaron.fun/embed/player.html?file=ep/sousou-no-frieren.txt&plstart=25","id":"25"},
 	  {"title":"Эпизод 26","file":"[720p]https://fs01.macaron.fun/?v=671605226","embed":"https://macaron.fun/embed/player.html?file=ep/sousou-no-frieren.txt&plstart=26","id":"26"},
 	  {"title":"Эпизод 27","file":"[720p]https://fs01.macaron.fun/?v=671605232","embed":"https://macaron.fun/embed/player.html?file=ep/sousou-no-frieren.txt&plstart=27","id":"27"},
-	  {"title":"Эпизод 28","file":"[720p]https://fs01.macaron.fun/?v=","embed":"https://macaron.fun/embed/player.html?file=ep/sousou-no-frieren.txt&plstart=28","id":"28"}
+	  {"title":"Эпизод 28","file":"[720p]https://fs01.macaron.fun/?v=672096613","embed":"https://macaron.fun/embed/player.html?file=ep/sousou-no-frieren.txt&plstart=28","id":"28"}
 ]
