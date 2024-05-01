@@ -4,5 +4,11 @@
 	  {"title":"Эпизод 03","file":"[1080p]https://fs01.macaron.fun/?v=669664002","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=03","id":"03"},
 	  {"title":"Эпизод 04","file":"[1080p]https://fs01.macaron.fun/?v=669664012","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=04","id":"04"},
 	  {"title":"Эпизод 05","file":"[1080p]https://fs01.macaron.fun/?v=670360437","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=05","id":"05"},
-	  {"title":"Эпизод 06","file":"[1080p]https://fs01.macaron.fun/?v=670360441","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=06","id":"06"}
+	  {"title":"Эпизод 06","file":"[1080p]https://fs01.macaron.fun/?v=670360441","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=06","id":"06"},
+	  {"title":"Эпизод 07","file":"[1080p]https://fs01.macaron.fun/?v=672726206","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=07","id":"07"},
+	  {"title":"Эпизод 08","file":"[1080p]https://fs01.macaron.fun/?v=672726207","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=08","id":"08"},
+	  {"title":"Эпизод 09","file":"[1080p]https://fs01.macaron.fun/?v=672726208","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=09","id":"09"},
+	  {"title":"Эпизод 10","file":"[1080p]https://fs01.macaron.fun/?v=672726209","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=10","id":"10"},
+	  {"title":"Эпизод 11","file":"[1080p]https://fs01.macaron.fun/?v=672726211","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=11","id":"11"},
+	  {"title":"Эпизод 12","file":"[1080p]https://fs01.macaron.fun/?v=672726212","embed":"https://macaron.fun/embed/player.html?file=ep/solo-leveling.txt&plstart=12","id":"12"}
 	  ]
