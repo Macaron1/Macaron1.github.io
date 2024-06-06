@@ -91,7 +91,7 @@
            <div class="iframe-box">
 				<img src="/img/player-loading.jpg" alt="player-loading" class="player-load">
 		        <div style="position:absolute; left:0; top:0; right:0; bottom:0; z-index: 2">
-                   <iframe src="/embed/sousou-no-frieren.html" frameborder="0" style="width: 100%; height: 100%" allowfullscreen></iframe>
+                   <iframe id="FrierenFrame" src="/embed/sousou-no-frieren.html" frameborder="0" style="width: 100%; height: 100%" allowfullscreen></iframe>
 		        </div>
            </div>
 		
@@ -123,6 +123,48 @@
 			$( ".macaron-reklama" ).load( "/macaron-reklama.html" );
 			</script>
 		</div>
+		<script>
+					var iframe = document.getElementById('FrierenFrame');
+
+					function setupClickListeners() {
+						// Установка начального изображения при загрузке страницы
+						var initialImg = localStorage.getItem('selectedImg');
+						if (initialImg) {
+							document.querySelector("body > div.macaron-container > div:nth-child(2) > div:nth-child(1) > img").src = initialImg;
+						}
+
+						function setImgForRange(start, end, imgSrc) {
+							for (let i = start; i <= end; i++) {
+								let targetElement = iframe.contentWindow.document.querySelector("#player_playlist > pjsdiv > pjsdiv:nth-child(" + i + ")");
+								if (targetElement) {
+									targetElement.addEventListener('click', function() {
+										var img = document.querySelector("body > div.macaron-container > div:nth-child(2) > div:nth-child(1) > img");
+										if (img.src !== window.location.origin + imgSrc) {
+											img.src = imgSrc;
+											// Сохранение выбора изображения в localStorage
+											localStorage.setItem('selectedImg', imgSrc);
+										}
+									});
+								}
+							}
+						}
+
+						setImgForRange(1, 4, '/img/poster/sousou-no-frieren.jpg');
+						setImgForRange(5, 6, '/img/poster/sousou-no-frieren2.jpg');
+						setImgForRange(7, 17, '/img/poster/sousou-no-frieren3.jpg');
+						setImgForRange(18, 28, '/img/poster/sousou-no-frieren4.jpg');
+					}
+
+					function checkAndSetup() {
+						if (iframe.contentWindow.document.querySelector("#player_playlist > pjsdiv > pjsdiv:nth-child(1)")) {
+							setupClickListeners();
+						} else {
+							setTimeout(checkAndSetup, 100);
+						}
+					}
+
+					checkAndSetup();
+			  </script>
 		<div class="lines"></div>
     </div>
 
