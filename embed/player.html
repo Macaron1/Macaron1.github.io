@@ -45,6 +45,26 @@
 		left: 50%;
 		transform: translate(-50%);
 	"> 27.11.2023 будут переноситься серверы. </p> -->
+	
+	<div id="ad">
+		<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', '//fs01.macaron.fun/ad.html', true);
+            xhr.onload = function() {
+                if (xhr.status >= 200 && xhr.status < 400) {
+                    document.getElementById('ad').innerHTML = xhr.responseText;
+                } else {
+                    console.error('Error: ', xhr.statusText);
+                }
+            };
+            xhr.onerror = function() {
+                console.error('Request failed');
+            };
+            xhr.send();
+        });
+		</script>
+	</div>
         
     <div id="playerjs" style="width:100%;height:100%;"></div>
         
