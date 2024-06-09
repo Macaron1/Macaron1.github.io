@@ -48,21 +48,32 @@
 	
 	<div id="ad">
 		<script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', '//fs01.macaron.fun/ad.html', true);
-            xhr.onload = function() {
-                if (xhr.status >= 200 && xhr.status < 400) {
-                    document.getElementById('ad').innerHTML = xhr.responseText;
-                } else {
-                    console.error('Error: ', xhr.statusText);
-                }
-            };
-            xhr.onerror = function() {
-                console.error('Request failed');
-            };
-            xhr.send();
-        });
+			document.addEventListener('DOMContentLoaded', function() {
+				var xhr = new XMLHttpRequest();
+				xhr.open('GET', '//fs01.macaron.fun/ad.html', true);
+				xhr.onload = function() {
+					if (xhr.status >= 200 && xhr.status < 400) {
+						var container = document.getElementById('ad');
+						container.innerHTML = xhr.responseText;
+						executeScripts(container);
+					} else {
+						console.error('Error: ', xhr.statusText);
+					}
+				};
+				xhr.onerror = function() {
+					console.error('Request failed');
+				};
+				xhr.send();
+
+				function executeScripts(element) {
+					var scripts = element.querySelectorAll('script');
+					scripts.forEach(function(script) {
+						var newScript = document.createElement('script');
+						newScript.text = script.innerText;
+						document.head.appendChild(newScript).parentNode.removeChild(newScript);
+					});
+				}
+			});
 		</script>
 	</div>
         
