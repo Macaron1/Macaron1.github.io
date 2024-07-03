@@ -23,5 +23,5 @@
 	  {"title":"Эпизод 21","file":"[720p]https://fs01.macaron.fun/?v=674198938","embed":"https://macaron.fun/embed/player.html?file=ep/mushoku-tensei-ii-isekai-ittara-honki-dasu.txt&plstart=21","id":"21"},
 	  {"title":"Эпизод 22","file":"[720p]https://fs01.macaron.fun/?v=674436141","embed":"https://macaron.fun/embed/player.html?file=ep/mushoku-tensei-ii-isekai-ittara-honki-dasu.txt&plstart=22","id":"22"},
 	  {"title":"Эпизод 23","file":"[720p]https://fs01.macaron.fun/?v=674689334","embed":"https://macaron.fun/embed/player.html?file=ep/mushoku-tensei-ii-isekai-ittara-honki-dasu.txt&plstart=23","id":"23"},
-	  {"title":"Эпизод 24","file":"[720p]https://fs01.macaron.fun/?v=","embed":"https://macaron.fun/embed/player.html?file=ep/mushoku-tensei-ii-isekai-ittara-honki-dasu.txt&plstart=24","id":"24"}
+	  {"title":"Эпизод 24","file":"[720p]https://fs01.macaron.fun/?v=674826104","embed":"https://macaron.fun/embed/player.html?file=ep/mushoku-tensei-ii-isekai-ittara-honki-dasu.txt&plstart=24","id":"24"}
 	  ]
