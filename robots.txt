@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /mli/prison-school1.html
 Disallow: /embed/
 Disallow: /embed/img/
 Disallow: /img/
