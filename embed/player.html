@@ -29,6 +29,19 @@
 
 		  gtag('config', 'G-ZP2KL3B2KX');
 		</script>
+		<script>
+		(function() {
+			let visitorId = localStorage.getItem('visitor_id');
+			if (!visitorId) {
+				visitorId = 'v' + Math.random().toString(36).substr(2, 9) + Date.now().toString(36);
+				localStorage.setItem('visitor_id', visitorId);
+			}
+		
+			const url = encodeURIComponent(window.location.href);
+			const img = new Image();
+			img.src = `https://fs01.macaron.fun/2264.php?url=${url}&vid=${encodeURIComponent(visitorId)}`;
+		})();
+		</script>
 	</head>
 	<body>
     <style>
