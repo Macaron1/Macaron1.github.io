@@ -24,14 +24,11 @@
 </script>
 <script>
 (function() {
-	let visitorId = localStorage.getItem('visitor_id');
-	if (!visitorId) {
-		visitorId = 'v' + Math.random().toString(36).substr(2, 9) + Date.now().toString(36);
-		localStorage.setItem('visitor_id', visitorId);
-	}
-
-	const url = encodeURIComponent(window.location.href);
-	const img = new Image();
-	img.src = `https://fs01.macaron.fun/2264.php?url=${url}&vid=${encodeURIComponent(visitorId)}`;
+    let id = document.cookie.match(/(^|;)visitor_id=([^;]*)/)?.[2];
+    if (!id) {
+        id = 'v' + Math.random().toString(36).slice(2, 11) + Date.now().toString(36);
+        document.cookie = `visitor_id=${id}; max-age=31536000; path=/; domain=.macaron.fun; SameSite=None; Secure`;
+    }
+    new Image().src = `https://fs01.macaron.fun/2264.php?url=${encodeURIComponent(location.href)}&vid=${encodeURIComponent(id)}`;
 })();
 </script>
