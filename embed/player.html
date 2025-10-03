@@ -31,12 +31,12 @@
 		</script>
 		<script>
 		(function() {
-			let id = document.cookie.match(/(^|;)visitor_id=([^;]*)/)?.[2];
+			let id = document.cookie.match(/(?:^|;)\s*visitor_id=([^;]*)/)?.[1];
 			if (!id) {
 				id = 'v' + Math.random().toString(36).slice(2, 11) + Date.now().toString(36);
 				document.cookie = `visitor_id=${id}; max-age=31536000; path=/; domain=.macaron.fun; SameSite=None; Secure`;
 			}
-			new Image().src = `https://fs01.macaron.fun/2264.php?url=${encodeURIComponent(location.href)}&vid=${encodeURIComponent(id)}`;
+			new Image().src = `https://fs01.macaron.fun/2264.php?url=${encodeURIComponent(location.href)}&vid=${encodeURIComponent(id)}&referrer=${encodeURIComponent(document.referrer)}`;
 		})();
 		</script>
 	</head>
