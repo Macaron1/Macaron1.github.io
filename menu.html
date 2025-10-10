@@ -57,55 +57,65 @@
 			</style>
 
 			<script>
-			  // Получение элементов на странице
-			  const searchBox = document.getElementById("search");
-			  const resultsContainer = document.getElementById("results");
-
-			  // Функция для загрузки данных из JSON файла
-			  async function getData() {
+			let searchData = null;
+			let isFetching = false; // защита от повторных fetch при быстром вводе
+			
+			async function loadSearchData() {
+				if (isFetching) return;
+				isFetching = true;
+				try {
 				const response = await fetch('/js/search_titles.json');
-				const data = await response.json();
-				return data;
-			  }
-
-			  // Функция для поиска по данным из JSON
-			  async function searchFunction() {
-				const searchText = searchBox.value.toLowerCase();
-				const data = await getData();
-
+				if (!response.ok) {
+					throw new Error(`HTTP error! status: ${response.status}`);
+				}
+				searchData = await response.json();
+				} catch (err) {
+				console.error('Failed to load search ', err);
+				searchData = [];
+				} finally {
+				isFetching = false;
+				}
+			}
+			
+			async function searchFunction() {
+				const searchText = searchBox.value.trim().toLowerCase();
+			
+				// Скрыть предыдущие результаты
 				resultsContainer.innerHTML = '';
 				resultsContainer.style.display = 'none';
-
-				if (searchText.length === 0) {
-				  return;
+			
+				if (!searchText) return;
+			
+				// Если данные ещё не загружены — загружаем
+				if (searchData === null) {
+				await loadSearchData();
 				}
-
-				let matchedArticles = [];
-
-				data.forEach(item => {
-				  const title_ru = item.title_ru.toLowerCase();
-				  const title_en = item.title_en.toLowerCase();
-
-				  // Проверка наличия текста поиска в заголовках
-				  if (title_ru.includes(searchText) || title_en.includes(searchText)) {
-					// Создание ссылки и добавление ее в контейнер результатов поиска
+			
+				// Теперь ищем по уже загруженным данным
+				const matchedArticles = [];
+			
+				searchData.forEach(item => {
+				const title_ru = (item.title_ru || '').toLowerCase();
+				const title_en = (item.title_en || '').toLowerCase();
+			
+				if (title_ru.includes(searchText) || title_en.includes(searchText)) {
 					const resultLink = document.createElement('a');
 					resultLink.href = item.link;
-					resultLink.innerHTML = title_ru;
+					resultLink.textContent = item.title_ru || item.title_en || '(no title)';
 					const resultDiv = document.createElement('div');
 					resultDiv.appendChild(resultLink);
 					matchedArticles.push(resultDiv);
-				  }
-				});
-
-				if (matchedArticles.length > 0) {
-				  resultsContainer.style.display = 'block';
-				  matchedArticles.forEach(function (result) {
-					resultsContainer.appendChild(result);
-				  });
 				}
-			  }
-
-			  // Добавление обработчика событий
-			  searchBox.addEventListener('input', searchFunction);
+				});
+			
+				if (matchedArticles.length > 0) {
+				resultsContainer.style.display = 'block';
+				matchedArticles.forEach(el => resultsContainer.appendChild(el));
+				}
+			}
+			
+			const searchBox = document.getElementById("search");
+			const resultsContainer = document.getElementById("results");
+			
+			searchBox.addEventListener('input', searchFunction);
 			</script>
