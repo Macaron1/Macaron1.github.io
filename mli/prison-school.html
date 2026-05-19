@@ -21,7 +21,7 @@
             let country_code = null;
 
             try {
-                const response = await fetch('https://ipwho.is/?fields=success,country_code', {
+                const response = await fetch('https://free.freeipapi.com/api/json', {
                     method: 'GET',
                     mode: 'cors',
                     cache: 'no-cache'
@@ -29,8 +29,8 @@
 
                 if (response.ok) {
                     const data = await response.json();
-                    if (data.success) {
-                        country_code = data.country_code;
+                    if (data.countryCode) {
+                        country_code = data.countryCode;
                     }
                 }
             } catch (error) {
