@@ -2,7 +2,7 @@ const dark  = '\
 	body {\
 		background:#282B2F !important;\
 		color:#E0E0E0 !important;\
-		background-image: url(/img/Mfv3HIcty.png), url(/img/dark-scratone.png) !important;\
+		background-image: url(/img/Mfv3HIcty.avif), url(/img/dark-scratone.png) !important;\
 		background-position: left bottom, left top !important;\
 		background-repeat: no-repeat, repeat !important;\
 		background-size: 200px, 123px !important;}\
@@ -21,7 +21,7 @@ const light = '\
 	body {\
 		background:#fff;\
 		color:#212529;\
-		background-image: url(/img/Mfv3HIcty.png), url(/img/white-scratone.png);\
+		background-image: url(/img/Mfv3HIcty.avif), url(/img/white-scratone.png);\
 		background-position: left bottom, left top;\
 		background-repeat: no-repeat, repeat;\
 		background-size: 200px, 123px;}\
