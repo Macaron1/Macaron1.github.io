@@ -1,0 +1,14 @@
+[
+	  {"title":"Эпизод 01","file":"[720p]https://fs01.macaron.fun/?v=696489020","embed":"https://macaron.fun/embed/player.html?file=ep/kage-no-jitsuryokusha-ni-naritakute-2nd-season.txt&plstart=01","id":"01"},
+	  {"title":"Эпизод 02","file":"[720p]https://fs01.macaron.fun/?v=696490698","embed":"https://macaron.fun/embed/player.html?file=ep/kage-no-jitsuryokusha-ni-naritakute-2nd-season.txt&plstart=02","id":"02"},
+	  {"title":"Эпизод 03","file":"[720p]https://fs01.macaron.fun/?v=696490706","embed":"https://macaron.fun/embed/player.html?file=ep/kage-no-jitsuryokusha-ni-naritakute-2nd-season.txt&plstart=03","id":"03"},
+	  {"title":"Эпизод 04","file":"[720p]https://fs01.macaron.fun/?v=696490709","embed":"https://macaron.fun/embed/player.html?file=ep/kage-no-jitsuryokusha-ni-naritakute-2nd-season.txt&plstart=04","id":"04"},
+	  {"title":"Эпизод 05","file":"[720p]https://fs01.macaron.fun/?v=696495415","embed":"https://macaron.fun/embed/player.html?file=ep/kage-no-jitsuryokusha-ni-naritakute-2nd-season.txt&plstart=05","id":"05"},
+	  {"title":"Эпизод 06","file":"[720p]https://fs01.macaron.fun/?v=696495422","embed":"https://macaron.fun/embed/player.html?file=ep/kage-no-jitsuryokusha-ni-naritakute-2nd-season.txt&plstart=06","id":"06"},
+	  {"title":"Эпизод 07","file":"[720p]https://fs01.macaron.fun/?v=696495631","embed":"https://macaron.fun/embed/player.html?file=ep/kage-no-jitsuryokusha-ni-naritakute-2nd-season.txt&plstart=07","id":"07"},
+	  {"title":"Эпизод 08","file":"[720p]https://fs01.macaron.fun/?v=696495634","embed":"https://macaron.fun/embed/player.html?file=ep/kage-no-jitsuryokusha-ni-naritakute-2nd-season.txt&plstart=08","id":"08"},
+	  {"title":"Эпизод 09","file":"[720p]https://fs01.macaron.fun/?v=696495642","embed":"https://macaron.fun/embed/player.html?file=ep/kage-no-jitsuryokusha-ni-naritakute-2nd-season.txt&plstart=09","id":"09"},
+	  {"title":"Эпизод 10","file":"[720p]https://fs01.macaron.fun/?v=696495984","embed":"https://macaron.fun/embed/player.html?file=ep/kage-no-jitsuryokusha-ni-naritakute-2nd-season.txt&plstart=10","id":"10"},
+	  {"title":"Эпизод 11","file":"[720p]https://fs01.macaron.fun/?v=696495990","embed":"https://macaron.fun/embed/player.html?file=ep/kage-no-jitsuryokusha-ni-naritakute-2nd-season.txt&plstart=11","id":"11"},
+	  {"title":"Эпизод 12","file":"[720p]https://fs01.macaron.fun/?v=696495997","embed":"https://macaron.fun/embed/player.html?file=ep/kage-no-jitsuryokusha-ni-naritakute-2nd-season.txt&plstart=12","id":"12"}
+	  ]
