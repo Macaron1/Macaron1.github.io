@@ -1,0 +1,14 @@
+[
+	  {"title":"Эпизод 01","file":"[720p]https://fs01.macaron.fun/?v=696887648","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren-2.txt&plstart=01","id":"01"},
+	  {"title":"Эпизод 02","file":"[720p]https://fs01.macaron.fun/?v=696887652","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren-2.txt&plstart=02","id":"02"},
+	  {"title":"Эпизод 03","file":"[720p]https://fs01.macaron.fun/?v=696891160","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren-2.txt&plstart=03","id":"03"},
+	  {"title":"Эпизод 04","file":"[720p]https://fs01.macaron.fun/?v=696891170","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren-2.txt&plstart=04","id":"04"},
+	  {"title":"Эпизод 05","file":"[720p]https://fs01.macaron.fun/?v=696891172","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren-2.txt&plstart=05","id":"05"},
+	  {"title":"Эпизод 06","file":"[720p]https://fs01.macaron.fun/?v=696891183","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren-2.txt&plstart=06","id":"06"},
+	  {"title":"Эпизод 07","file":"[720p]https://fs01.macaron.fun/?v=696891639","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren-2.txt&plstart=07","id":"07"},
+	  {"title":"Эпизод 08","file":"[720p]https://fs01.macaron.fun/?v=696891650","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren-2.txt&plstart=08","id":"08"},
+	  {"title":"Эпизод 09","file":"[720p]https://fs01.macaron.fun/?v=696891658","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren-2.txt&plstart=09","id":"09"},
+	  {"title":"Эпизод 10","file":"[720p]https://fs01.macaron.fun/?v=696891668","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren-2.txt&plstart=10","id":"10"},
+	  {"title":"Эпизод 11","file":"[720p]https://fs01.macaron.fun/?v=696891673","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren-2.txt&plstart=11","id":"11"},
+	  {"title":"Эпизод 12","file":"[720p]https://fs01.macaron.fun/?v=696891683","embed":"https://macaron.fun/embed/player.html?file=ep/shiguang-dailiren-2.txt&plstart=12","id":"12"}
+	  ]
