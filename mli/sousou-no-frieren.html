@@ -123,48 +123,49 @@
 			$( ".macaron-reklama" ).load( "//fs01.macaron.fun/macaron-reklama.php" );
 			</script>
 		</div>
-		<script>
-					var iframe = document.getElementById('FrierenFrame');
-
-					function setupClickListeners() {
-						// Установка начального изображения при загрузке страницы
-						var initialImg = localStorage.getItem('selectedImg');
-						if (initialImg) {
-							document.querySelector("body > div.macaron-container > div:nth-child(2) > div:nth-child(1) > img").src = initialImg;
-						}
-
-						function setImgForRange(start, end, imgSrc) {
-							for (let i = start; i <= end; i++) {
-								let targetElement = iframe.contentWindow.document.querySelector("#player_playlist > pjsdiv > pjsdiv:nth-child(" + i + ")");
-								if (targetElement) {
-									targetElement.addEventListener('click', function() {
-										var img = document.querySelector("body > div.macaron-container > div:nth-child(2) > div:nth-child(1) > img");
-										if (img.src !== window.location.origin + imgSrc) {
-											img.src = imgSrc;
-											// Сохранение выбора изображения в localStorage
-											localStorage.setItem('selectedImg', imgSrc);
-										}
-									});
-								}
-							}
-						}
-
-						setImgForRange(1, 4, '/img/poster/sousou-no-frieren.jpg');
-						setImgForRange(5, 6, '/img/poster/sousou-no-frieren2.jpg');
-						setImgForRange(7, 17, '/img/poster/sousou-no-frieren3.jpg');
-						setImgForRange(18, 28, '/img/poster/sousou-no-frieren4.jpg');
-					}
-
-					function checkAndSetup() {
-						if (iframe.contentWindow.document.querySelector("#player_playlist > pjsdiv > pjsdiv:nth-child(1)")) {
-							setupClickListeners();
-						} else {
-							setTimeout(checkAndSetup, 100);
-						}
-					}
-
-					checkAndSetup();
-			  </script>
+              <script>
+                  var iframe = document.getElementById('FrierenFrame');
+              
+                  function setupClickListeners() {
+                      var storageKey = 'selectedImg_' + window.location.pathname;
+                      // Установка начального изображения при загрузке страницы
+                      var initialImg = localStorage.getItem(storageKey);
+                      if (initialImg) {
+                          document.querySelector("body > div.macaron-container > div:nth-child(2) > div.poster > img").src = initialImg;
+                      }
+              
+                      function setImgForRange(start, end, imgSrc) {
+                          for (let i = start; i <= end; i++) {
+                              let targetElement = iframe.contentWindow.document.querySelector("#player_playlist > pjsdiv > pjsdiv:nth-child(" + i + ")");
+                              if (targetElement) {
+                                  targetElement.addEventListener('click', function() {
+                                      var img = document.querySelector("body > div.macaron-container > div:nth-child(2) > div:nth-child(1) > img");
+                                      if (img.src !== window.location.origin + imgSrc) {
+                                          img.src = imgSrc;
+                                          // Сохраняем изображение, используя уникальный ключ текущей страницы
+                                          localStorage.setItem(storageKey, imgSrc);
+                                      }
+                                  });
+                              }
+                          }
+                      }
+              
+                      setImgForRange(1, 4, '/img/poster/sousou-no-frieren.jpg');
+                      setImgForRange(5, 6, '/img/poster/sousou-no-frieren2.jpg');
+                      setImgForRange(7, 17, '/img/poster/sousou-no-frieren3.jpg');
+                      setImgForRange(18, 28, '/img/poster/sousou-no-frieren4.jpg');
+                  }
+              
+                  function checkAndSetup() {
+                      if (iframe.contentWindow.document.querySelector("#player_playlist > pjsdiv > pjsdiv:nth-child(1)")) {
+                          setupClickListeners();
+                      } else {
+                          setTimeout(checkAndSetup, 100);
+                      }
+                  }
+              
+                  checkAndSetup();
+              </script>
 		<div class="lines"></div>
     </div>
 
