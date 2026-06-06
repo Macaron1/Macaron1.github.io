@@ -473,7 +473,7 @@ p {
     left: inherit !important;
     top: 5em;
     left: 54.5% !important;
-    margin-left: -50px;
+    margin-left: -40px;
   }
 }
 @media screen and (max-width: 768px) {
