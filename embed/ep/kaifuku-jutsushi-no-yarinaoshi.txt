@@ -1,14 +1,14 @@
 [
-	  {"title":"Эпизод 01","file":"[720p]https://fs01.macaron.fun/?v=664983612","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=01","id":"01"},
-	  {"title":"Эпизод 02","file":"[720p]https://fs01.macaron.fun/?v=664983629","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=02","id":"02"},
-	  {"title":"Эпизод 03","file":"[720p]https://fs01.macaron.fun/?v=664983657","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=03","id":"03"},
-	  {"title":"Эпизод 04","file":"[720p]https://fs01.macaron.fun/?v=664983660","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=04","id":"04"},
-	  {"title":"Эпизод 05","file":"[720p]https://fs01.macaron.fun/?v=664983665","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=05","id":"05"},
-	  {"title":"Эпизод 06","file":"[720p]https://fs01.macaron.fun/?v=664983669","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=06","id":"06"},
-	  {"title":"Эпизод 07","file":"[720p]https://fs01.macaron.fun/?v=664983672","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=07","id":"07"},
-	  {"title":"Эпизод 08","file":"[720p]https://fs01.macaron.fun/?v=664983675","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=08","id":"08"},
-	  {"title":"Эпизод 09","file":"[720p]https://fs01.macaron.fun/?v=664983676","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=09","id":"09"},
-	  {"title":"Эпизод 10","file":"[720p]https://fs01.macaron.fun/?v=664983679","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=10","id":"10"},
-	  {"title":"Эпизод 11","file":"[720p]https://fs01.macaron.fun/?v=664983680","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=11","id":"11"},
-	  {"title":"Эпизод 12","file":"[720p]https://fs01.macaron.fun/?v=664983684","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=12","id":"12"}
+	  {"title":"Эпизод 01","file":"[720p]https://fs01.macaron.fun/?v=697302498","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=01","id":"01"},
+	  {"title":"Эпизод 02","file":"[720p]https://fs01.macaron.fun/?v=697302504","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=02","id":"02"},
+	  {"title":"Эпизод 03","file":"[720p]https://fs01.macaron.fun/?v=697302508","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=03","id":"03"},
+	  {"title":"Эпизод 04","file":"[720p]https://fs01.macaron.fun/?v=697302769","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=04","id":"04"},
+	  {"title":"Эпизод 05","file":"[720p]https://fs01.macaron.fun/?v=697302775","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=05","id":"05"},
+	  {"title":"Эпизод 06","file":"[720p]https://fs01.macaron.fun/?v=697302783","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=06","id":"06"},
+	  {"title":"Эпизод 07","file":"[720p]https://fs01.macaron.fun/?v=697303235","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=07","id":"07"},
+	  {"title":"Эпизод 08","file":"[720p]https://fs01.macaron.fun/?v=697303242","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=08","id":"08"},
+	  {"title":"Эпизод 09","file":"[720p]https://fs01.macaron.fun/?v=697303245","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=09","id":"09"},
+	  {"title":"Эпизод 10","file":"[720p]https://fs01.macaron.fun/?v=697303255","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=10","id":"10"},
+	  {"title":"Эпизод 11","file":"[720p]https://fs01.macaron.fun/?v=697303257","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=11","id":"11"},
+	  {"title":"Эпизод 12","file":"[720p]https://fs01.macaron.fun/?v=697303262","embed":"https://macaron.fun/embed/player.html?file=ep/kaifuku-jutsushi-no-yarinaoshi.txt&plstart=12","id":"12"}
 	  ]
